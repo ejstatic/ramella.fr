@@ -1,0 +1,642 @@
+/*
+Theme Name: Ramella
+Theme URI: http://www.ramella.fr
+Description: Theme d&eacute;velopp&eacute; exclusivement pour le site web www.ramella.fr
+Version: 1
+Author: Erwan Jegouzo
+Author URI: http://www.erwanjegouzo.com
+
+*/
+
+@font-face {
+  font-family:"Bitstream Vera Sans";
+  src: url(media/font/Vera.ttf);
+} 
+
+												/* G E N E R A L */
+body {
+	font-size: 12px;
+	font-family: Verdana, Arial, Sans-Serif;
+	background: #2d2d2d;
+	color: #333;
+	text-align: center;
+	width:955px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#page {
+	text-align: left;
+	margin: 20px auto;
+	padding: 0;
+	width: 955px;
+}
+
+#header {
+	background:url(images/header_gradiant_under.jpg) bottom repeat-x;
+	margin: 0px;
+	padding: 0;
+	height: 463px;
+	width: 955px;
+}
+
+#content { 
+	margin-top:-20px;
+}
+	
+#sidebar {
+	font: 12px Verdana, Arial, Sans-Serif;
+	padding: 20px 0 10px 0;
+	margin-left: 627px;
+	margin-top:-50px;
+	padding-top:50px;
+	padding-left:20px;
+	width: 308px;
+	background:#353535;
+}
+
+
+#footer {
+	border: none;
+	margin-top: 20px;
+	padding-top: 10px;
+	width: 328px;
+	background: #2d2d2d;
+	margin-left:-20px;
+	padding-bottom:-10px;
+	margin-bottom:-10px;
+}
+	
+												/* M E N U  M A I N */
+#menuMain{
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	position:relative;
+	text-align:right;
+	width:auto;
+	padding-top:40px;
+	margin-right:-8px;
+}
+
+#menuMain ul{
+	list-style-type:none;
+	
+}
+#menuMain ul li{
+	display:inline;
+}
+
+
+#menuMain ul li a{
+	border:1px solid #232324;
+	background:url(images/menuMain_gradiant.jpg) repeat-x;
+	display:inline-block;
+	height:44px;
+	color:#898a8a;
+	text-decoration:none;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:-10px;
+	margin-right:5px;
+	line-height:40px;
+}
+#menuMain ul li.current_page_item a,
+#menuMain ul li a.current_page_item{
+	border:1px solid #232324;
+	background:url(images/menuMain_gradiant_over.jpg) repeat-x;
+	display:inline-block;
+	height:44px;
+	color:#bfd5ed;
+	text-decoration:none;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	margin-left:-10px;
+	margin-right:5px;
+	line-height:40px;
+}
+
+
+#menuMain ul li a:over{
+	background:url(images/menuMain_gradiant_over.jpg) repeat-x;
+	color:#fbe9d5;
+	text-decoration:underline;
+}
+
+
+												/* H E A D E R */
+#logo{ 
+	position:absolute;
+	background:url(images/logo.jpg) no-repeat;
+	border: 0px;
+	display:block;
+	width:208px;
+	height:77px;
+}	
+
+#header #description{
+	background:url(images/header_gradiant.jpg) repeat-x;
+	border:1px solid #232324;
+	color:#898a8a;
+	width:100%;
+	margin:0px;
+	margin-top:-15px;
+	height: 44px;
+	width: 955px;
+}
+
+#header .block{
+	width:100%;
+	height:268px;
+}
+
+#header #other{ 						background:url(images/header.jpg) no-repeat top left; }
+#header #activites{ 					background:url(images/header4.jpg)  no-repeat top left; }
+#header #notre-savoir-faire{ 			background:url(images/header1.jpg) no-repeat top left; }
+#header #devis-gratuit{ 				background:url(images/header2.jpg) no-repeat top left; }
+#header #contact{ 						background:url(images/header3.jpg) no-repeat top left; }
+#header #constructions-neuves{ 			background:url(images/header_constructions-neuves.jpg) no-repeat top left; }
+#header #beton-decoratif-exterieur{ 	background:url(images/header_beton-exterieur.jpg) no-repeat top left; }
+#header #beton-decoratif-interieur{ 	background:url(images/header_beton-interieur.jpg) no-repeat top left; }
+#header #ravalement{ 					background:url(images/header_ravalement.jpg) no-repeat top left; }
+#header #menuiserie{ 					background:url(images/header_menuiserie.jpg) no-repeat top left; }#header #teaser{
+	font-family:Helvetiker, Arial, Helvetica, sans-serif;
+	margin-left:629px;
+	width:327px;
+	height:100%;
+	background:url(images/header_box_gradiant.jpg) top repeat-x;
+}
+
+#header #teaser h2{
+	margin-top:0px;
+	padding-top:10px;
+	padding-left:20px;
+	color:#ffffff;
+}
+
+#header #teaser p{
+	padding-left:20px;
+	padding-right:20px;	
+	text-align:justify;
+	color:#898b8a;
+}
+
+#header #teaser a{
+	text-align:center;
+	display:block;
+	color:#ffffff;
+	font-size:16px;
+	text-decoration:none;
+	border:1px solid #ffffff;
+	
+	margin:0 auto;
+	margin-top:20px;
+	width:150px;
+}
+
+h1 {
+	display:none;
+}
+
+										/* T I T L E S */
+
+#content h2 a,
+#content h2 {
+	font-family:Helvetiker, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-decoration:none;
+	margin: 30px 0 0;
+	color:#f0f0f0;
+}
+
+
+#sidebar h2 {
+	font-family: Helvetiker, Verdana, Sans-Serif;
+	font-size: 14px;
+	margin: 5px 0 0;
+	padding: 0;
+	color:#ffffff;
+}
+
+h3 {
+	padding: 0;
+	margin: 30px 0 0;
+	font-size: 1.3em;
+	color:#ffffff;
+}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+}
+
+										/* N A R R O W   C O L U M N */
+.narrowcolumn {
+	float: left;
+	padding: 0 0 10px 25px;
+	margin: 0px 0 0;
+	width: 550px;
+}
+
+.narrowcolumn .postmetadata {
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #777;
+}
+
+code {
+	font: 1.1em 'Courier New', Courier, Fixed;
+}
+
+acronym, abbr, span.caps{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+}
+
+h2 a:hover, h3 a:hover {
+	color: #06c;
+	text-decoration: none;
+}
+
+.widecolumn {
+	line-height: 1.6em;
+}
+
+
+.thread-alt {
+	background-color: #f8f8f8;
+}
+.thread-even {
+	background-color: white;
+}
+.depth-1 {
+border: 1px solid #ddd;
+}
+
+.even, .alt {
+
+	border-left: 1px solid #ddd;
+}small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0 150px;
+	width: 450px;
+}
+
+.post {
+	margin: 0 0 40px;
+	text-align: justify;
+}
+
+.post hr {
+	display: block;
+}
+
+.widecolumn .post {
+	margin: 0;
+}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+}
+
+.widecolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+}
+
+.widecolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.postmetadata {
+	clear: both;
+}
+
+.clear {
+	clear: both;
+}
+
+											/* F O O T E R  */
+
+#footer p {
+	margin: 0;
+	margin-left:20px;
+	font-size:10px;
+	color:#898A8A;
+}
+
+#footer-images{
+	margin-left:20px;	
+}
+/*
+#footer img {
+	position:absolute;
+	margin-top:-40px;
+	margin-left:275px;
+	border:0px;
+}
+*/
+
+#footer a {
+	color:#898A8A;
+	text-decoration:none;
+}
+
+#footer a.design {
+	color:#333333;
+}
+
+
+/* Begin Images */
+p img {
+	padding: 0;
+	max-width: 100%;
+}
+
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}
+/* End Images *//* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul,
+html>body .entryPage ul{
+	margin-left: 0px;
+	padding-left: 10px;
+	color: #898a8a;
+}
+
+html>body .entry li,
+html>body .entryPage li {
+	margin: 7px 0 8px 10px;
+}
+
+.entry img,
+.entryPage img{
+	margin-right:10px;
+	overflow:hidden;
+	float:left;
+	padding:1px;
+	border: 1px solid #898a8a;
+}
+
+.entry img{
+	width:285px;
+	height:200px;
+	margin-left:0px;
+	float:left;
+}
+
+.entry a,
+.entryPage a{
+	color:#ffffff;
+}
+.entry p,
+.entryPage p{
+	color:#898a8a;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin-top:10px;
+}
+
+.entry p{
+	float:left;
+	width: 250px;
+	margin-left:10px;
+}
+
+.entry p a:visited,
+.entryPage p a:visited {
+	color: #ffffff;
+}
+
+.widecolumn .entry p,
+.widecolumn .entryPage p {
+	font-size: 1.05em;
+}
+
+.entry h3, 
+.entry h3 a,
+.entryPage h3, 
+.entryPage h3 a{	
+ 	text-decoration:none;
+	color:#898a8a;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+/*.entry ul li:before, #sidebar ul ul li:before {
+	content: "\00BB \0020";
+}*/
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+}
+
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+}
+
+
+/* End Entry Lists *//* Begin Form Elements */
+#searchform {
+	margin: 10px auto;
+	padding: 5px 3px;
+	text-align: center;
+}
+
+#sidebar #searchform #s {
+	width: 108px;
+	padding: 2px;
+}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+}
+
+select {
+	width: 130px;
+}/* Begin Comments*/
+.alt {
+	margin: 0;
+	padding: 10px;
+}.commentmetadata {
+	margin: 0;
+	display: block;
+}
+/* End Comments *//* S I D E B A R */
+
+#sidebar form {
+	margin: 0;
+}
+
+#sidebar p{
+	color:#ffffff;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+#sidebar #activites p{
+	color:#ffffff;
+	font:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height:10px;
+	margin-top:-1px;
+	margin-left:2px;
+}
+#sidebar #activites a{
+	text-decoration:none;
+}
+
+#sidebar img{
+	border:4px solid #2f2f2f;
+}
+
+/************************************** liste activites */
+#sidebar .listeActivites{
+	position:absolute;
+	margin-top:10px;
+}
+
+#sidebar .listeActivites{
+	position:absolute;
+}
+
+/*#sidebar #decoration{		margin-left:100px;}*/
+#sidebar #betonDecoExt{		margin-left:100px;}
+#sidebar #betonDecoInt{		margin-left:200px;}
+#sidebar #ravalement{		margin-top:120px;}
+#sidebar #menuiserie{		margin-left:100px;	margin-top:120px;}
+#sidebar #rehabilitation{ 	margin-left:200px;	margin-top:120px;}
+
+#sidebar #chantierDuMois{	margin-top:270px;}
+/* End Sidebar */
+
+
+/* Begin Various Tags & Classes */
+acronym, abbr, span.caps {
+	cursor: help;
+}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+}
+
+.center {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+hr {
+	display: none;
+}
+
+a img {
+	border: none;
+}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+/* End Various Tags & Classes*//* Captions */
+.aligncenter,
+div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
